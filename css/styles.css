@@ -62,15 +62,17 @@ q:before, q:after {
 }
 
 h1 {
-  background-color: #6E7783;
   margin-bottom: 0;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 0.3em;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
 }
 
 table {
-  border: 2px solid #4F86C6;
+  border-top: 2px solid #4F86C6;
   border-collapse: collapse;
   width: 100%;
   border-spacing: 0;
@@ -78,21 +80,48 @@ table {
 
 thead tr {
   background-color: #4FB0C6;
-  font-size:22px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 th {
   text-align: left;
   font-size: 0.8em;
   color: white;
-  padding: 0.2em 0 0.2em 0;
+  line-height: 2.5em;
 }
 
 tr {
   border-bottom: 2px solid #4F86C6;
   padding-left: 0.2em;
+  border-left: 2px solid #4F86C6;
+  border-right: 2px solid #4F86C6;
 }
 
 th:first-child, td:first-child {
   padding-left: 0.4em;
+  width: 28%;
+}
+
+th, td {
+  width: 12%;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: rgba(216, 230, 231, 0.8);
+}
+
+td {
+  line-height: 2em;
+  color:#67665b;
+}
+
+tfoot tr {
+  border: none;
+  font-size: 0.8em;
+  font-style: italic;
 }
