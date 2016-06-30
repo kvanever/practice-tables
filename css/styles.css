@@ -85,7 +85,7 @@ thead tr {
 }
 
 th {
-  text-align: left;
+  text-align: center;
   font-size: 0.8em;
   color: white;
   line-height: 2.5em;
@@ -116,12 +116,25 @@ tr:nth-child(even) {
 }
 
 td {
-  line-height: 2em;
+  line-height: 4em;
   color:#67665b;
+  text-align: center;
 }
 
 tfoot tr {
   border: none;
   font-size: 0.8em;
   font-style: italic;
+}
+
+.easy {
+  display: block;
+  background-color: green;
+  border-radius: 100%;
+  width: 4em;
+  height: 4em;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid darkgreen;
 }
